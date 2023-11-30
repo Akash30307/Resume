@@ -20,8 +20,11 @@
     }
 
     .explore-button:hover {
-      background-color: #2980b9;
+      background-color: #1589d7;
     }
+    .image-container {
+      text-align: center;
+    }    
   </style>
 </head>
 <body>
@@ -39,12 +42,20 @@
     </nav>
   </header>
 
-  <div class="container">
-    <section id="about" class="island-info">
+  <div>
+    <section id="about" class="container">
       <h2>About Serene Paradise Island</h2>
       <p>Welcome to Serene Paradise Island, a breathtaking oasis nestled in the heart of crystal-clear waters. This secluded island offers pristine beaches, lush greenery, and a serene atmosphere that's perfect for relaxation and adventure alike.</p>
-      <img src="IMG_2209.JPG" alt="Serene Paradise Island"/>
+      <img src="IMG_2209.JPG" alt="Serene Paradise Island" class="image-container" width="600" height="400"/>
       <p>Explore the rich marine life while snorkeling in the vibrant coral reefs, take leisurely walks along the sandy shores, or indulge in local cuisine at beachfront restaurants - Serene Paradise Island has something for everyone.</p>
+      <h2>Audio</h2>
+      <audio controls>
+          <source src="flute.mp3" type="audio/mpeg">
+      </audio>
+      <h2>Videos</h2>
+      <video controls>
+          <source src="video.mp4" type="video/mp4">
+      </video>
     </section>
 
     <section id="activities" class="island-info">
@@ -76,6 +87,7 @@
       <h2>Explore More</h2>
       <p>Ready to explore more? Click below to discover additional attractions:</p>
       <a href="attractions.html" class="explore-button">Explore Attractions</a>
+      <a href="javascript:history.back()" class="explore-button">Go Back</a>
     </section>
   </div>
 

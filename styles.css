@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+
+  .header {
+    background-color: #1f2b87;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center; /* Center align vertically */
+  }
+  
+  .left-section {
+    flex: 1; /* Takes up available space */
+  }
+  
+  .right-section {
+    display: flex;
+  }
+  
+  .image-container {
+    display: flex;
+  }
+  
+  .image-container img {
+    width: 130px; /* Adjust the width of images as needed */
+    height: auto;
+    margin-right: 100px; /* Adjust the space between images */
+  }
+  
+
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+  }
+
+  /* Main Content Styles */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-left: 300px; 
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    
+    
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 5px;
+    
+  }
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }   
+  
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Change this to the desired button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  .button-link:not(:last-child) {
+    margin-right: 10px;
+  }  
+
+  img.logo {
+    display: inline;
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle;
+    float: left;
+    margin-right: 10px;
+  }
+    

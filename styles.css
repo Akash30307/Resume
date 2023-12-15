@@ -18,7 +18,8 @@ body {
   }
   
   .left-section {
-    flex: 1; /* Takes up available space */
+    flex: 1; 
+    padding-left: 50px;
   }
   
   .right-section {
